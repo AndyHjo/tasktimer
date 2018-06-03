@@ -1,0 +1,97 @@
+.container {
+    position: relative;
+   
+}
+
+.highlight {
+  position: absolute;
+  margin: 200px auto auto;
+   
+}
+
+.nav-wrapper {
+    color: black;
+}
+
+.btn-floating {
+    position: relative;
+    margin: 50px auto auto;
+    } 
+
+.material-icons {
+    font-style: normal;
+}    
+
+.add-list-item.hidden {
+    margin-top: 100px;
+    display: none;
+}
+
+#en {
+    width: 200px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+#to {
+    width: 250px;
+  text-align: center;
+}
+
+ #tre {
+   text-align: right;
+   padding-right: 30px;
+}
+
+#checkbox {
+    text-align: end;
+}
+
+
+select {
+    display: block;
+}
+
+#select {
+    width: 80px;
+    align-content: center;
+}
+
+.start {
+    float: right;
+}
+
+.timer__counter{
+    color: black;
+}
+
+.timer__counter--active{
+    color: black;
+}
+
+.duration{
+    margin: 20px auto;
+  text-align: center;
+ 
+}
+
+.duration__timer{
+font-size: 60px;
+ color: black;
+}
+
+.duration__unit{
+ color: black;
+
+}
+
+
+.wrapper {
+    border:1px solid black;
+    height: 100vh;
+    padding:100px 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

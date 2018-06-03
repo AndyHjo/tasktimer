@@ -1,0 +1,20 @@
+{
+  "name": "electron-scaffolding-project",
+  "version": "0.1.0",
+  "description": "Electron scaffolding Project",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/interaksjonsdesign/electron-scaffolding-project.git"
+  },
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-packager . --icon \"app_icons/Icon.icns\" --overwrite"
+  },
+  "author": "Olivier Klaver",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^2.0.0",
+    "electron-packager": "^12.0.0"
+  }
+}
